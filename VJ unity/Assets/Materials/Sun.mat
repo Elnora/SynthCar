@@ -99,7 +99,7 @@ Material:
     - _Exposure: 1.54
     - _Gloss: 0.8
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.525
     - _GlossyReflections: 1
     - _ImageType: 0
     - _Layout: 0
