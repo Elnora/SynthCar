@@ -1,21 +1,53 @@
 fileFormatVersion: 2
-guid: 4a129b8f678bef9468382c3560e6d40f
+guid: 62d40bf2a440b754e969b9a12680d6c0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Plane
+    100004: Plane_001
+    100006: Plane_002
+    100008: Plane_003
+    100010: Plane_004
+    100012: Plane_005
+    100014: Sun
     400000: //RootNode
-    2100000: Material.001
-    2100002: No Name
+    400002: Plane
+    400004: Plane_001
+    400006: Plane_002
+    400008: Plane_003
+    400010: Plane_004
+    400012: Plane_005
+    400014: Sun
+    2100000: unnamed
+    2100002: base
+    2100004: edge
     2300000: //RootNode
+    2300002: Plane
+    2300004: Plane_001
+    2300006: Plane_002
+    2300008: Plane_003
+    2300010: Plane_004
+    2300012: Plane_005
+    2300014: Sun
     3300000: //RootNode
+    3300002: Plane
+    3300004: Plane_001
+    3300006: Plane_002
+    3300008: Plane_003
+    3300010: Plane_004
+    3300012: Plane_005
+    3300014: Sun
     4300000: Plane
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 92b5692a61e582241ad674d325b018c2, type: 2}
+    4300002: Plane_001
+    4300004: Plane_002
+    4300006: Plane_005
+    4300008: Plane_004
+    4300010: Plane_003
+    4300012: Sun
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -67,7 +99,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -92,7 +124,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
