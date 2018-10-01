@@ -6,14 +6,15 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Emission
-  m_Shader: {fileID: 4800000, guid: d5d93437eb36e8645a2591fdcabd91fc, type: 3}
-  m_ShaderKeywords: _EMISSION _MAPPING_LATITUDE_LONGITUDE_LAYOUT _SUNDISK_HIGH_QUALITY
-  m_LightmapFlags: 1
+  m_Name: Metal
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _MAPPING_LATITUDE_LONGITUDE_LAYOUT _SUNDISK_HIGH_QUALITY
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -28,17 +29,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Diffuse:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -59,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c70af0d55019ba542acdc30a24c8cc6b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6bca4967fc2348f4f9a8bdb29ff2403c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -97,9 +94,9 @@ Material:
     m_Floats:
     - _AtmosphereThickness: 0.91
     - _BumpScale: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 0.426
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _Exposure: 1.54
     - _Gloss: 0.8
     - _GlossMapScale: 1
@@ -110,7 +107,7 @@ Material:
     - _Mapping: 1
     - _Metallic: 0
     - _MirrorOnBack: 0
-    - _Mode: 0
+    - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Rotation: 0
@@ -120,15 +117,15 @@ Material:
     - _SunDisk: 2
     - _SunSize: 0.269
     - _SunSizeConvergence: 2.57
-    - _Tiling: 100
+    - _Tiling: 0.7
     - _UVSec: 0
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _node_4907: 0.5213675
+    - _node_8007: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.16858928, b: 0, a: 0.48235294}
     - _ColorBG: {r: 1, g: 0, b: 0, a: 1}
-    - _ColorWire: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0.23549305, g: 0.6475818, b: 0.7924528, a: 1}
+    - _EmissionColor: {r: 0.30647027, g: 0.5564715, b: 0.6698113, a: 1}
     - _GroundColor: {r: 0.28845775, g: 0.21181916, b: 0.3773585, a: 1}
     - _SkyTint: {r: 1, g: 0.3443396, b: 0.3728877, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}

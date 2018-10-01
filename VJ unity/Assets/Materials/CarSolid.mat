@@ -99,7 +99,7 @@ Material:
     - _Exposure: 1.54
     - _Gloss: 0.8
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.22
     - _GlossyReflections: 1
     - _ImageType: 0
     - _Layout: 0
@@ -122,11 +122,11 @@ Material:
     - _node_4907: 0.5213675
     - _node_8007: 0
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0.07898474, a: 0.48235294}
+    - _Color: {r: 0.13932894, g: 0.21214564, b: 0.2924528, a: 0.48235294}
     - _ColorBG: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0.30647027, g: 0.5564715, b: 0.6698113, a: 1}
     - _GroundColor: {r: 0.28845775, g: 0.21181916, b: 0.3773585, a: 1}
     - _SkyTint: {r: 1, g: 0.3443396, b: 0.3728877, a: 1}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _Wirecolor: {r: 1, g: 0, b: 0, a: 1}

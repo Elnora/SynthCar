@@ -4,25 +4,66 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Plane
+    100004: Plane.003
+    100006: Plane.004
+    100008: Car.003
+    100010: pipes
+    100012: pipes.001
     400000: //RootNode
+    400002: Plane
+    400004: Plane.003
+    400006: Plane.004
+    400008: Car.003
+    400010: pipes
+    400012: pipes.001
     2100000: solid
     2100002: glass
     2100004: Dark
     2100006: lights
+    2100008: metal
     2300000: //RootNode
+    2300002: Plane
+    2300004: Plane.003
+    2300006: Plane.004
+    2300008: Car.003
+    2300010: pipes
+    2300012: pipes.001
     3300000: //RootNode
+    3300002: Plane
+    3300004: Plane.003
+    3300006: Plane.004
+    3300008: Car.003
+    3300010: pipes
+    3300012: pipes.001
     4300000: Plane
+    4300002: Plane.004
+    4300004: Plane.003
+    4300006: Car
+    4300008: Car.003
+    4300010: pipes
+    4300012: pipes.001
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dark
-    second: {fileID: 2100000, guid: 3c46d98e7f89a3d42ba5224b7daac65e, type: 2}
+    second: {fileID: 2100000, guid: 7ff814f97b12c8a439fbfa0dff8d2855, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: glass
-    second: {fileID: 2100000, guid: 914eda9c12dfd064996cb3b75f0d6e12, type: 2}
+    second: {fileID: 2100000, guid: 7ff814f97b12c8a439fbfa0dff8d2855, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights
+    second: {fileID: 2100000, guid: 571e5ffc426d97747938a56c08f65632, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: b2007e51484f5ed43bfbe78acd398fec, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

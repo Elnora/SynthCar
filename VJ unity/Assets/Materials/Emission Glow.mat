@@ -129,8 +129,8 @@ Material:
     - _Tiling: 100
     - _UVSec: 0
     - _ZWrite: 1
-    - ___FresnelPower: 0.792
-    - ___InnerGlow: 1.33
+    - ___FresnelPower: 0.798
+    - ___InnerGlow: 1.79
     - _node_2599: 2.31
     - _node_3531: -33.65
     - _node_4799: 5.7
