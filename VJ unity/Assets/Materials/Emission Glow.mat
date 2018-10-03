@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Emission Glow
-  m_Shader: {fileID: 4800000, guid: e3f513e390303304386cdba939500554, type: 3}
+  m_Shader: {fileID: 4800000, guid: 05fe5d4c27dc5f54b9f02b1c34f1317c, type: 3}
   m_ShaderKeywords: _EMISSION _MAPPING_LATITUDE_LONGITUDE_LAYOUT _SUNDISK_HIGH_QUALITY
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -102,6 +102,8 @@ Material:
     - _DstBlend: 0
     - _Exp: 2.45
     - _Exposure: 1.54
+    - _Float0: 0.46910617
+    - _Float1: 0.81
     - _FresnelPower: 0
     - _Gloss: 0.8
     - _GlossMapScale: 1
@@ -131,6 +133,7 @@ Material:
     - _ZWrite: 1
     - ___FresnelPower: 0.798
     - ___InnerGlow: 1.79
+    - __dirty: 0
     - _node_2599: 2.31
     - _node_3531: -33.65
     - _node_4799: 5.7
@@ -142,6 +145,8 @@ Material:
     - _BaseColor: {r: 0.9523721, g: 1, b: 0, a: 1}
     - _CenterColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.19842473, g: 0.7048787, b: 0.8584906, a: 1}
+    - _Color0: {r: 0, g: 0.35408735, b: 1, a: 0}
+    - _Color1: {r: 0, g: 0.8666668, b: 1, a: 0}
     - _ColorBG: {r: 1, g: 0, b: 0, a: 1}
     - _ColorWire: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EdgeColor: {r: 1, g: 0, b: 0, a: 1}
