@@ -11,7 +11,17 @@ ModelImporter:
     3300000: //RootNode
     4300000: Plane
     4300002: Glowtest
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emission
+    second: {fileID: 2100002, guid: e4057b2ee5ece8340a73335026735c4d, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trans
+    second: {fileID: 2100000, guid: 7ff814f97b12c8a439fbfa0dff8d2855, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

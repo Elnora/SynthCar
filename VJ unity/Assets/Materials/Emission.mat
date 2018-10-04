@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Emission
-  m_Shader: {fileID: 4800000, guid: d5d93437eb36e8645a2591fdcabd91fc, type: 3}
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _MAPPING_LATITUDE_LONGITUDE_LAYOUT _SUNDISK_HIGH_QUALITY
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c70af0d55019ba542acdc30a24c8cc6b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -125,10 +125,10 @@ Material:
     - _ZWrite: 1
     - _node_4907: 0.5213675
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.49450058, b: 0, a: 1}
     - _ColorBG: {r: 1, g: 0, b: 0, a: 1}
     - _ColorWire: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0.23549305, g: 0.6475818, b: 0.7924528, a: 1}
+    - _EmissionColor: {r: 0.31648272, g: 0.47310957, b: 0.5283019, a: 1}
     - _GroundColor: {r: 0.28845775, g: 0.21181916, b: 0.3773585, a: 1}
     - _SkyTint: {r: 1, g: 0.3443396, b: 0.3728877, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}

@@ -11,18 +11,18 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1425574473846258}
   m_IsPrefabAsset: 1
---- !u!1 &1152326248763894
+--- !u!1 &1324612771623258
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4163808230087126}
-  - component: {fileID: 33282607736009334}
-  - component: {fileID: 23797933347509854}
-  m_Layer: 0
-  m_Name: outrunCar
+  - component: {fileID: 4834252630426298}
+  - component: {fileID: 33989010469591664}
+  - component: {fileID: 23947415801708600}
+  m_Layer: 9
+  m_Name: pipes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,8 +39,40 @@ GameObject:
   - component: {fileID: 114039961370083440}
   - component: {fileID: 114935450071021726}
   - component: {fileID: 54073801678853570}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Car
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1600835950013686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4970003800664878}
+  m_Layer: 9
+  m_Name: outrunCar (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1736577726655232
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4335809571893022}
+  - component: {fileID: 33969744601552510}
+  - component: {fileID: 23521255416238314}
+  m_Layer: 0
+  m_Name: Car.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,24 +87,24 @@ GameObject:
   m_Component:
   - component: {fileID: 4824443455618452}
   - component: {fileID: 108769861070471762}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4163808230087126
+--- !u!4 &4335809571893022
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1152326248763894}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75196934, y: -1.23, z: -1.2}
-  m_LocalScale: {x: 1.09, y: 1.09, z: 1.09}
+  m_GameObject: {fileID: 1736577726655232}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.017903328, y: 0.44357115, z: -1.7624114}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4761129227975010}
+  m_Father: {fileID: 4970003800664878}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4761129227975010
@@ -85,8 +117,8 @@ Transform:
   m_LocalPosition: {x: 0.75196934, y: 2.0700903, z: 7.8517222}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4163808230087126}
   - {fileID: 4824443455618452}
+  - {fileID: 4970003800664878}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -101,14 +133,42 @@ Transform:
   m_LocalScale: {x: 1.2519, y: 0.25499296, z: 0.69156}
   m_Children: []
   m_Father: {fileID: 4761129227975010}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
---- !u!23 &23797933347509854
+--- !u!4 &4834252630426298
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324612771623258}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.017903328, y: 0.44357115, z: -1.7624114}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4970003800664878}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4970003800664878
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1600835950013686}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.75196934, y: -1.23, z: -0.87}
+  m_LocalScale: {x: 1.09, y: 1.09, z: 1.09}
+  m_Children:
+  - {fileID: 4335809571893022}
+  - {fileID: 4834252630426298}
+  m_Father: {fileID: 4761129227975010}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23521255416238314
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1152326248763894}
+  m_GameObject: {fileID: 1736577726655232}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -119,9 +179,8 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: c22207f7c1d970e409dd471df90fdaa1, type: 2}
-  - {fileID: 2100000, guid: 3c46d98e7f89a3d42ba5224b7daac65e, type: 2}
-  - {fileID: 2100000, guid: 7ff814f97b12c8a439fbfa0dff8d2855, type: 2}
   - {fileID: 2100000, guid: 571e5ffc426d97747938a56c08f65632, type: 2}
+  - {fileID: 2100000, guid: 914eda9c12dfd064996cb3b75f0d6e12, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -141,13 +200,55 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33282607736009334
+--- !u!23 &23947415801708600
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324612771623258}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 7ff814f97b12c8a439fbfa0dff8d2855, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33969744601552510
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1152326248763894}
+  m_GameObject: {fileID: 1736577726655232}
   m_Mesh: {fileID: 4300008, guid: 0c1fae44a37ae43498eb6cc5794dca2a, type: 3}
+--- !u!33 &33989010469591664
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324612771623258}
+  m_Mesh: {fileID: 4300010, guid: 0c1fae44a37ae43498eb6cc5794dca2a, type: 3}
 --- !u!54 &54073801678853570
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -265,7 +366,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 20
         - useVariable: 1
           name: xPosCar
           tooltip: 
@@ -293,7 +394,10 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000100000000000000
         paramByteDataSize: 00000000000000000000000001000000
-    events: []
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
     globalTransitions: []
     variables:
       floatVariables:
@@ -379,16 +483,16 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: Move X
-    startState: State 1
+    startState: Set Velocity
     states:
-    - name: State 1
+    - name: Set Velocity
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 50
         y: 100
-        width: 100
+        width: 109
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -396,13 +500,13 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.AddForce
+        - HutongGames.PlayMaker.Actions.SetVelocity
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: febdb401
+        actionHashCodes: 5552ad05
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -454,34 +558,26 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 000000000000000001
+        byteData: 0100000001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000001c0000000f0000000f0000000f000000070000000700000001000000
+        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000
         paramName:
         - gameObject
-        - atPosition
         - vector
         - x
         - y
         - z
         - space
-        - forceMode
         - everyFrame
-        paramDataPos: 000000000000000001000000000000000100000002000000000000000400000008000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000040000000400000001000000
+        paramDataPos: 00000000000000000000000001000000020000000000000004000000
+        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000
     events: []
     globalTransitions: []
     variables:

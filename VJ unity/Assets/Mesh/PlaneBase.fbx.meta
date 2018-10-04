@@ -1,44 +1,28 @@
 fileFormatVersion: 2
-guid: bf741724a3eb31d4f8dd67d4e14d12bd
+guid: 3819994fa1f703c45a6c3521d6485920
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Plane
-    100004: Plane_001
-    100006: Plane_002
-    100008: Plane_003
-    100010: Plane_004
     400000: //RootNode
-    400002: Plane
-    400004: Plane_001
-    400006: Plane_002
-    400008: Plane_003
-    400010: Plane_004
-    2100000: solid
-    2100002: glass
-    2100004: unnamed
-    2100006: Dark
-    2300000: Plane
-    2300002: Plane_001
-    2300004: Plane_002
-    2300006: Plane_003
-    2300008: Plane_004
-    3300000: Plane
-    3300002: Plane_001
-    3300004: Plane_002
-    3300006: Plane_003
-    3300008: Plane_004
-    4300000: Plane_002
-    4300002: Plane_001
-    4300004: Plane
-    4300006: Plane_004
-    4300008: Plane_003
-    7400000: Default Take
-    9500000: //RootNode
-  externalObjects: {}
+    2100000: emission
+    2100002: Solid
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: PlaneBase
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Solid
+    second: {fileID: 2100000, guid: 7ff814f97b12c8a439fbfa0dff8d2855, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emission
+    second: {fileID: 2100000, guid: 571e5ffc426d97747938a56c08f65632, type: 2}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -88,7 +72,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -113,7 +97,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
