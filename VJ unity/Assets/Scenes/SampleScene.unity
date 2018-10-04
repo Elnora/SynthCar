@@ -683,6 +683,11 @@ Prefab:
       propertyPath: m_Name
       value: MovingPlane (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 33674946404582810, guid: ca21b449913012d44a02f976dbcbaa81,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 4a129b8f678bef9468382c3560e6d40f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca21b449913012d44a02f976dbcbaa81, type: 2}
   m_IsPrefabAsset: 0
