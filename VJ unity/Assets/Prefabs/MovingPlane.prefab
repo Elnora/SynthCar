@@ -53,6 +53,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4782399041430986}
+  - component: {fileID: 114502399297276418}
+  - component: {fileID: 114156472825525328}
   m_Layer: 9
   m_Name: MovingPlane
   m_TagString: Untagged
@@ -67,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1082302984190510}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4782399041430986}
@@ -177,7 +179,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1082302984190510}
-  m_Mesh: {fileID: 4300000, guid: 3819994fa1f703c45a6c3521d6485920, type: 3}
+  m_Mesh: {fileID: 4300004, guid: 3819994fa1f703c45a6c3521d6485920, type: 3}
 --- !u!33 &33826973426441776
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -185,3 +187,31 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1204748562752404}
   m_Mesh: {fileID: 4300000, guid: 451cbf54c65fa2b48a1584d11881302a, type: 3}
+--- !u!114 &114156472825525328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1980048421809930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &114502399297276418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1980048421809930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []

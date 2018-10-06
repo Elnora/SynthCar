@@ -7,9 +7,12 @@ ModelImporter:
     400000: //RootNode
     2100000: emission
     2100002: Solid
+    2100004: No Name
     2300000: //RootNode
     3300000: //RootNode
     4300000: PlaneBase
+    4300002: Plane.011
+    4300004: PlaneBase.001
   externalObjects:
   - first:
       type: UnityEngine:Material
