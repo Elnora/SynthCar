@@ -11,15 +11,23 @@ ModelImporter:
     2100006: edge
     2100008: trans
     2100010: emission
+    2100012: Solid
+    2100014: emission.001
     2300000: //RootNode
     3300000: //RootNode
     4300000: Plane
+    4300002: PlaneBase
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
     second: {fileID: 2100000, guid: 92b5692a61e582241ad674d325b018c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Solid
+    second: {fileID: 2100000, guid: 7ff814f97b12c8a439fbfa0dff8d2855, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -35,6 +43,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: emission
     second: {fileID: 2100000, guid: 92b5692a61e582241ad674d325b018c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emission.001
+    second: {fileID: 2100000, guid: 571e5ffc426d97747938a56c08f65632, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
